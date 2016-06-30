@@ -1,13 +1,17 @@
 import requests
 import json
+from flask import Flask
 
-r = requests.get("http://coffee-hawaii-boom.azurewebsites.net/api/v1.0/coffees")
+app = Flask(__name__)
 
-print r.status_code
-print ""
-#j = json.loads(r.json())
-#j = json.loads(r.text)
-j = r.json()
-print type(j[1])
-print ""
-print r.text
+@app.route('/')
+def index():
+	return "Hello World"
+
+@app.route('/api/v1.0/catalog')
+def catalog():
+	r = requests.get("http://coffee-net.azurewebsites.net/api/catalog")
+	return r.text
+
+if __name__ == '__main__':
+	app.run(debug=True)
