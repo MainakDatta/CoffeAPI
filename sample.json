@@ -1,0 +1,140 @@
+[
+  [
+    {
+      "pricingData": [
+        {
+          "cost": 9.99,
+          "inStock": 101,
+          "size": "8 oz"
+        },
+        {
+          "cost": 29.99,
+          "inStock": 103,
+          "size": "16 oz"
+        }
+      ],
+      "tastingNotes": "The flavors of Africa meet the lush days of summer. It hits you like that first summer breeze. Crisp and smooth with the taste of a new season ripe with possibilities. Kati kati means \u201cbetween\u201d in Swahili, and this blend strikes the delicate balance between vibrant tangy notes from Kenya and the multilayered flavors and aromas of Ethiopian coffees. Our master blenders crafted this coffee as a versatile blend. Enjoy it hot to savor the slight roasting and caramel sweetness. Or you can try it iced to accentuate the floral, citrusy notes during those days of lounging in the shade.",
+      "id": "1",
+      "description": "Starbucks Kati Kati Blend, Whole Bean"
+    },
+    {
+      "pricingData": [
+        {
+          "cost": 9.99,
+          "inStock": 101,
+          "size": "8 oz"
+        },
+        {
+          "cost": 29.99,
+          "inStock": 105,
+          "size": "16 oz"
+        }
+      ],
+      "tastingNotes": "When we created this blend for our iced coffee beverages, we started with beans that maintain their unique flavors though a range of temperatures\u2014fruity East African and vibrant Latin American coffees. Then we artfully roasted them to a soft, toasty brown. The result is balanced, caramel smooth and utterly refreshing, whether served straight or with milk and your favorite sweetener.",
+      "id": "3",
+      "description": "Starbucks\u00ae Iced Coffee Blend, Whole Bean"
+    },
+    {
+      "pricingData": [
+        {
+          "cost": 9.99,
+          "inStock": 101,
+          "size": "8 oz"
+        },
+        {
+          "cost": 29.99,
+          "inStock": 107,
+          "size": "16 oz"
+        }
+      ],
+      "tastingNotes": "Kenya's high altitudes, ideal climate and strong traditions have helped put premium Kenyan coffees like this one among the world's most treasured. And as it did when we introduced it in 1971, Kenya continues to astound our expert tasters and customers alike with flavors not commonly ascribed to coffee: juicy acidity, low wine notes and fruity flavors that intensify as the coffee cools. For this reason, Kenya is an important ingredient in our iced-coffee blends. Enjoy it brewed cold or double strength, then served over ice.",
+      "id": "5",
+      "description": "Kenya Boom Boom"
+    }
+  ],
+  [
+    {
+      "description": "Peaceful Strength - From ancient times, Molokai has been known as place of great spiritual vigor. The old legends claim that the people of Molokai repelled invading armies simply by harnessing the power of prayer. The island continues this tradition of quiet self-reliance by resisting not armies but urban modernism. (Not one traffic light on Molokai!).A rich-bodied, medium roast coffee with a mild acidity, complemented with a luscious hint of chocolate. ",
+      "title": "Malulani Estate Water",
+      "price": 22.0,
+      "grinds": [
+        "8oz",
+        "Whole Bean"
+      ],
+      "availability": 2546,
+      "fair_trade": "Y",
+      "id": "KN200",
+      "orgin": "Ethopia",
+      "size": "8oz"
+    },
+    {
+      "description": "A European roast adds character to the fragrant, wine- and fruit-toned bouquet of this 100% Kona coffee.",
+      "title": "Kona Nightingale - Moonlit Water",
+      "price": 38.0,
+      "grinds": [
+        "Regular Grind",
+        "Whole Bean"
+      ],
+      "availability": 4,
+      "fair_trade": "Y",
+      "id": "KN213",
+      "orgin": "Italy",
+      "size": "8oz"
+    },
+    {
+      "description": "Premium beans from throughout Hawai'i come together, capturing the essence of the islands. A medium roasting releases that essence. Then our roast master adds a touch of the balanced tropical sweetness of toasted coconut. Decadent!",
+      "title": "Toasted Coconut Island Style Coffee",
+      "price": 9.0,
+      "grinds": [
+        "Regular Grind",
+        "Whole Bean"
+      ],
+      "availability": 2,
+      "fair_trade": "N",
+      "id": "KN21767",
+      "orgin": "Hawaii",
+      "size": "8oz"
+    },
+    {
+      "description": "October in Kailua-Kona means one thing. Athletes by sea and athletes by land. The Kini Kini is a morning fixture on the horizon of Kailua Bay leading up to Saturday Race Day. Kini Kini brings them together every morning to enjoy the abundant flavor of the world's finest coffee! Enjoy this 100% Moloka'i dark roasted coffee. Share a cup. Share the memories.",
+      "title": "Icelandic Gold Coffee",
+      "price": 190.0,
+      "grinds": [
+        "Regular Grind",
+        "Whole Bean"
+      ],
+      "availability": 5,
+      "fair_trade": "N",
+      "id": "KN2167",
+      "orgin": "Iceland",
+      "size": "8oz"
+    },
+    {
+      "description": "Our 2014 harvest produced excellent quality for this natural-dried peaberry. Full body, rich in flavor, a smooth finish with a hint of nuts. These single-formed beans are in limited supply and only available to our online 'ohana. ",
+      "title": "Muleskinner Peaberry",
+      "price": 25.0,
+      "grinds": [
+        "Regular Grind",
+        "Whole Bean"
+      ],
+      "availability": 50,
+      "fair_trade": "Y",
+      "id": "KN21",
+      "orgin": "Ethopia",
+      "size": "8oz"
+    },
+    {
+      "description": "Fruits of the Islands is proud to present the Coffees of the Hawaiian Islands in this 100% Hawaiian Blend coffee. We have captured the essence of the Hawaiian Islands by providing the coffee beans from Kauai, Oahu, Molokai, Maui and Hawaii (Big Island) to prepare this secret blend of premium Hawaiian coffee. We invite you to 'Taste all the Hawaiian Islands in one cup'.",
+      "title": "Fruit of the Islands 100% Hawaiian Coffee 7oz Regular Grind",
+      "price": 25.0,
+      "grinds": [
+        "Whole Bean"
+      ],
+      "availability": 500,
+      "fair_trade": "Y",
+      "id": "KN1",
+      "orgin": "Hawaii",
+      "size": "7oz"
+    }
+  ]
+]
