@@ -1,6 +1,7 @@
 import requests
 import json
 from flask import Flask
+from catalogParsers import parseCoffeeNetToScotts
 
 app = Flask(__name__)
 coffeenet = "http://coffee-net.azurewebsites.net/api/catalog/coffee"
@@ -16,13 +17,14 @@ def mergeCatalogs(catalog1, catalog2):
 	result.append(catalog2)
 	return result
 
+
 @app.route('/')
 def index():
 	return "Hello World"
 
 @app.route('/api/v1.0/catalog')
 def catalog():
-	supplier1 = callSupplier(coffeenet)
+	supplier1 = parseCoffeeNetToScotts(callSupplier(coffeenet))
 	supplier2 = callSupplier(hawaiiboom)
 	mergedCatalogs = mergeCatalogs(supplier1,supplier2)
 	return json.dumps(mergedCatalogs)
