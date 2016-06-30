@@ -23,5 +23,5 @@ def callSupplier(supplierURL):
 
 
 coffeenet = "http://coffee-net.azurewebsites.net/api/catalog/coffee"
-newCatalog = parseCoffeeNetToScotts2(callSupplier(coffeenet))
+newCatalog = parseCoffeeNetToScotts(callSupplier(coffeenet))
 print newCatalog
