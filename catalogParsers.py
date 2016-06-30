@@ -17,11 +17,3 @@ def parseCoffeeNetToScotts(jsonData):
 
     return ScottsCatalog
 
-def callSupplier(supplierURL):
-	r = requests.get(supplierURL)
-	return r.json()
-
-
-coffeenet = "http://coffee-net.azurewebsites.net/api/catalog/coffee"
-newCatalog = parseCoffeeNetToScotts(callSupplier(coffeenet))
-print newCatalog
